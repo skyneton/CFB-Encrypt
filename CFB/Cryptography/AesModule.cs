@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NiaBukkit.API.Cryptography
+namespace CFB.Cryptography
 {
     public static class AesModule
     {

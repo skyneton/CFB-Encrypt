@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 
-namespace NiaBukkit.API.Cryptography
+namespace CFB.Cryptography
 {
     //https://stackoverflow.com/questions/34420086/aes-decryption-encryption-implementation-in-c-sharp-not-using-libraries
     public class AesCipher
@@ -20,7 +19,7 @@ namespace NiaBukkit.API.Cryptography
 
         private int _blockSize; 
 
-        public AesCipher([NotNull] byte[] key, [NotNull] byte[] iv)
+        public AesCipher(byte[] key, byte[] iv)
         {
             Key = ByteArrayClone(key);
             IV = ByteArrayClone(iv);

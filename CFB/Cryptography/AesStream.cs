@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace NiaBukkit.API.Cryptography
+namespace CFB.Cryptography
 {
     public class AesStream : Stream
     {
